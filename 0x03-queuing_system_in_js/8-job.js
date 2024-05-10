@@ -2,7 +2,7 @@
 import { Queue, Job } from 'kue';
 
 /**
- * Creates push notification jobs from the array of jobs info.
+ * Create push notification jobs from array of jobs info.
  * @param {Job[]} jobs
  * @param {Queue} queue
  */

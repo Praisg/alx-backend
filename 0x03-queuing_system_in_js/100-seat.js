@@ -12,7 +12,7 @@ let reservationEnabled = false;
 const PORT = 1245;
 
 /**
- * Modifies the number of available seats.
+ * Modifies number of available seats.
  * @param {number} number - The new number of seats.
  */
 const reserveSeat = async (number) => {
@@ -20,7 +20,7 @@ const reserveSeat = async (number) => {
 };
 
 /**
- * Retrieves the number of available seats.
+ * Retrieves number of available seats.
  * @returns {Promise<String>}
  */
 const getCurrentAvailableSeats = async () => {
